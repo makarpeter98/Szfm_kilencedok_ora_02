@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80bd1d0b-a75c-4789-9933-fcb1844ff62f" name="Changes" comment="Mock commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "makarpeter98"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/makarpeter98/Szfm_kilencedik_ora_vegleges.git",
+    "accountId": "f9fe5deb-66d3-4e81-98fa-44675cc32391"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2oNiz4sXgNnu2WhBerBNOtMOVcb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.PersonTest.PersonConstructorShouldThrowExceptionForWrongID.executor": "Run",
+    "JUnit.PersonTest.containsCharShouldRetrunTrueForContainedChars.executor": "Run",
+    "JUnit.PersonTest.executor": "Run",
+    "JUnit.PersonTest.scannedPersonTest.executor": "Run",
+    "JUnit.PersonTest.test_this.executor": "Run",
+    "JUnit.PersonTest.toStringShouldReturnString.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.Szfm_kilencedik_ora_mockito_alap [org.apache.maven.plugins:maven-jar-plugin:3.4.1:jar].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/makar/IdeaProjects/Szfm_kilencedik_ora_Mockito_alap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mycompany.l6_mockito" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonTest.containsCharShouldRetrunTrueForContainedChars">
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito_test" />
+      <option name="MAIN_CLASS_NAME" value="mockito_test.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.PersonConstructorShouldThrowExceptionForWrongID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito_test" />
+      <option name="MAIN_CLASS_NAME" value="mockito_test.PersonTest" />
+      <option name="METHOD_NAME" value="PersonConstructorShouldThrowExceptionForWrongID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.containsCharShouldRetrunTrueForContainedChars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito_test" />
+      <option name="MAIN_CLASS_NAME" value="mockito_test.PersonTest" />
+      <option name="METHOD_NAME" value="containsCharShouldRetrunTrueForContainedChars(char)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.scannedPersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito_test" />
+      <option name="MAIN_CLASS_NAME" value="mockito_test.PersonTest" />
+      <option name="METHOD_NAME" value="scannedPersonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.toStringShouldReturnString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito_test" />
+      <option name="MAIN_CLASS_NAME" value="mockito_test.PersonTest" />
+      <option name="METHOD_NAME" value="toStringShouldReturnString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonTest.containsCharShouldRetrunTrueForContainedChars" />
+        <item itemvalue="JUnit.PersonTest.toStringShouldReturnString" />
+        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="JUnit.PersonTest.scannedPersonTest" />
+        <item itemvalue="JUnit.PersonTest.PersonConstructorShouldThrowExceptionForWrongID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80bd1d0b-a75c-4789-9933-fcb1844ff62f" name="Changes" comment="" />
+      <created>1730716693291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730716693291</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Mock commit">
+      <option name="closed" value="true" />
+      <created>1730790849684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730790849685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mock commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mock commit" />
+  </component>
+</project>
