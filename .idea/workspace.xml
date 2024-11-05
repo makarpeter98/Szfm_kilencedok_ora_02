@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80bd1d0b-a75c-4789-9933-fcb1844ff62f" name="Changes" comment="Person test: nameContainsChar kész&#10;Person test: kész">
+    <list default="true" id="80bd1d0b-a75c-4789-9933-fcb1844ff62f" name="Changes" comment="PersonTest:&#10;- setUpClass()&#10;- tearDownClass()&#10;- setUp()&#10;- tearDown()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/l6_mockito/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/l6_mockito/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mockito_test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito_test/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/l6_mockito/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/l6_mockito/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/l6_mockito/PersonDataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/l6_mockito/PersonDataReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mockito_test/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mockito_test/PersonTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,7 @@
       <recent name="com.mycompany.l6_mockito" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.containsCharShouldRetrunTrueForContainedChars">
+  <component name="RunManager" selected="JUnit.PersonTest">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mockito" />
       <extension name="coverage">
@@ -151,9 +155,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest" />
         <item itemvalue="JUnit.PersonTest.containsCharShouldRetrunTrueForContainedChars" />
         <item itemvalue="JUnit.PersonTest.toStringShouldReturnString" />
-        <item itemvalue="JUnit.PersonTest" />
         <item itemvalue="JUnit.PersonTest.scannedPersonTest" />
         <item itemvalue="JUnit.PersonTest.PersonConstructorShouldThrowExceptionForWrongID" />
       </list>
@@ -200,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730792751571</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PersonTest:&#10;- setUpClass()&#10;- tearDownClass()&#10;- setUp()&#10;- tearDown()">
+      <option name="closed" value="true" />
+      <created>1730793281973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730793281973</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +231,7 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="Person test: equals, toString, getter-setter,constructor, scannedPerson kész&#10;&#10;PersonDataReader: kész" />
     <MESSAGE value="Person test: nameContainsChar kész&#10;Person test: kész" />
-    <option name="LAST_COMMIT_MESSAGE" value="Person test: nameContainsChar kész&#10;Person test: kész" />
+    <MESSAGE value="PersonTest:&#10;- setUpClass()&#10;- tearDownClass()&#10;- setUp()&#10;- tearDown()" />
+    <option name="LAST_COMMIT_MESSAGE" value="PersonTest:&#10;- setUpClass()&#10;- tearDownClass()&#10;- setUp()&#10;- tearDown()" />
   </component>
 </project>

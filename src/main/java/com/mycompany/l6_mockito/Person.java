@@ -20,6 +20,7 @@ public class Person {
     }
 
     public Person(int id, String name, int age) {
+        if(id < 0) throw new RuntimeException();
         this.id = id;
         this.name = name;
         this.age = age;

@@ -1,48 +1,84 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package mockito_test;
 
 import com.mycompany.l6_mockito.Person;
 import com.mycompany.l6_mockito.PersonDataReader;
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+import static org.mockito.BDDMockito.given;
 import org.mockito.Mock;
+import static org.mockito.Mockito.*;
 import org.mockito.MockitoAnnotations;
 
-import static org.mockito.BDDMockito.given;
-
+/**
+ *
+ * @author admin
+ */
 public class PersonTest {
 
     @Mock
     private PersonDataReader pdr;
-    private Person testPerson01, getTestPerson02;
+    private Person underTest1, underTest2;
 
-    @BeforeAll
-    public static void setUpClass()
-    {
-        System.out.println("Before all!");
+    @BeforeAll //@BeforeClass
+    public static void setUpClass() {
     }
 
-    @AfterAll
-    public static void tearDownClass()
-    {
-        System.out.println("After all!");
+    @AfterAll //@AfterClass
+    public static void tearDownClass() {
     }
 
-    @BeforeEach
-    public void setUp()
-    {
-        System.out.println("Before each!");
+    @BeforeEach //@Before
+    public void setUp() {
         MockitoAnnotations.openMocks(this);
-        given(pdr.getID()).willReturn(4,6);
-        given(pdr.getName()).willReturn("Teszt Elek", "Elektrom Ágnes");
-        given(pdr.getAge()).willReturn(20,40);
+        //PersonDataReader pdr = mock(PersonDataReader.class);
+        given(pdr.getID()).willReturn(4, 6);
+        given(pdr.getName()).willReturn("George Smith", "Tom Smith");
+        given(pdr.getAge()).willReturn(20, 40);
+
+        underTest1 = Person.scannedPerson(pdr);
+        underTest2 = Person.scannedPerson(pdr);
+        verify(pdr, times(2)).getID();
+        verify(pdr, times(2)).getName();
+        verify(pdr, times(2)).getAge();
+
     }
 
-    @AfterEach
-    public void tearDown()
-    {
-        System.out.println("After Each!");
+    @AfterEach //@After
+    public void tearDown() {
+    }
+
+    @Test
+    public void scannedPersonTest() {
+        PersonDataReader pdr = mock(PersonDataReader.class);
+
+        Person pExpected = new Person(4, "George Smith",20);
+        assertEquals(pExpected, underTest1);
+
+        pExpected = new Person(6, "Tom Smith", 40);
+        assertEquals(pExpected, underTest2);
+    }
+
+    @Test
+    public void PersonConstructorShouldThrownExceptionForWrongID() {
+        Assertions.assertThrows(Exception.class, () -> {
+            new Person(-10, "Adam", 20);
+        });
     }
 
 }
