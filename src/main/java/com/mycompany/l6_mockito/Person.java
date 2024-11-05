@@ -58,6 +58,11 @@ public class Person {
                 '}';
     }
 
+    public boolean nameContainsChar(char c)
+    {
+        return getName().contains(""+c);
+    }
+
     @Override
     public boolean equals(Object obj)
     {
