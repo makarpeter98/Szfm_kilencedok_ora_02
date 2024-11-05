@@ -9,6 +9,7 @@ import com.mycompany.l6_mockito.Person;
 import com.mycompany.l6_mockito.PersonDataReader;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
+
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -48,7 +49,7 @@ public class PersonTest {
         MockitoAnnotations.openMocks(this);
         //PersonDataReader pdr = mock(PersonDataReader.class);
         given(pdr.getID()).willReturn(4, 6);
-        given(pdr.getName()).willReturn("George Smith", "Tom Smith");
+        given(pdr.getName()).willReturn("Teszt Elek", "Elektrom Ágnes");
         given(pdr.getAge()).willReturn(20, 40);
 
         underTest1 = Person.scannedPerson(pdr);
@@ -67,10 +68,10 @@ public class PersonTest {
     public void scannedPersonTest() {
         PersonDataReader pdr = mock(PersonDataReader.class);
 
-        Person pExpected = new Person(4, "George Smith",20);
+        Person pExpected = new Person(4, "Teszt Elek",20);
         assertEquals(pExpected, underTest1);
 
-        pExpected = new Person(6, "Tom Smith", 40);
+        pExpected = new Person(6, "Elektrom Ágnes", 40);
         assertEquals(pExpected, underTest2);
     }
 
@@ -79,6 +80,26 @@ public class PersonTest {
         Assertions.assertThrows(Exception.class, () -> {
             new Person(-10, "Adam", 20);
         });
+    }
+
+    @Test
+    public void toStringShouldReurnString()
+    {
+        String expected = "Person{id=" + 4 + ", name=" + "'Teszt Elek', age=" + 20 + "}";
+        Assertions.assertEquals(expected, underTest1.toString());
+    }
+
+    @Test
+    void test_this() throws  InterruptedException
+    {
+        Assertions.assertTimeout(Duration.ofMillis(5000), ()-> Thread.sleep(1000));
+    }
+
+    @ParameterizedTest
+    @ValueSource(chars = {'T', 'e', 's', 'z', 't'})
+    void containsCharShouldReturnTrueforContainedChars(char input)
+    {
+        assertTrue(underTest1.nameContainsChar(input), "char: "+input);
     }
 
 }

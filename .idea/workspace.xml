@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80bd1d0b-a75c-4789-9933-fcb1844ff62f" name="Changes" comment="PersonTest:&#10;- setUpClass()&#10;- tearDownClass()&#10;- setUp()&#10;- tearDown()">
+    <list default="true" id="80bd1d0b-a75c-4789-9933-fcb1844ff62f" name="Changes" comment="Person test:&#10;- PersonConstructorShouldThrownExceptionForWrongID&#10;- scannedPersonTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/l6_mockito/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/l6_mockito/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mockito_test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito_test/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/l6_mockito/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/l6_mockito/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/l6_mockito/PersonDataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/l6_mockito/PersonDataReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/mockito_test/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mockito_test/PersonTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730793281973</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Person test:&#10;- PersonConstructorShouldThrownExceptionForWrongID&#10;- scannedPersonTest">
+      <option name="closed" value="true" />
+      <created>1730794210288</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730794210288</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +237,7 @@
     <MESSAGE value="Person test: equals, toString, getter-setter,constructor, scannedPerson kész&#10;&#10;PersonDataReader: kész" />
     <MESSAGE value="Person test: nameContainsChar kész&#10;Person test: kész" />
     <MESSAGE value="PersonTest:&#10;- setUpClass()&#10;- tearDownClass()&#10;- setUp()&#10;- tearDown()" />
-    <option name="LAST_COMMIT_MESSAGE" value="PersonTest:&#10;- setUpClass()&#10;- tearDownClass()&#10;- setUp()&#10;- tearDown()" />
+    <MESSAGE value="Person test:&#10;- PersonConstructorShouldThrownExceptionForWrongID&#10;- scannedPersonTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Person test:&#10;- PersonConstructorShouldThrownExceptionForWrongID&#10;- scannedPersonTest" />
   </component>
 </project>
